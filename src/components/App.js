@@ -5,7 +5,7 @@ const App = () => {
   return (
     <Container>
       <Row>
-        <div className="col h1 text-center">test</div>
+        <div className="col h1 text-center">henlo world</div>
       </Row>
     </Container>
   )
