@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Hero = () => {
     return (
         <Container>
-            <h2 id="hello">Hello world,</h2>
+            <h2 id="hello">Hello,</h2>
             <h1 id="pancho">I'm Pancho</h1>
             <h2 id="fullstack">Full-Stack Web Developer</h2>
         </Container>
@@ -14,11 +14,18 @@ const Hero = () => {
 
 const Container = styled.div`
 
+    position: absolute;
+    width: 952px;
+    height: 397px;
+    left: calc(50% - 952px/2);
+    top: 163px;
+
     #hello {
         position: absolute;
-        width: 50%;
-        left: calc(50% - 173px/2 + 3.5px);
-        top: 163px;
+        width: 87px;
+        height: 36px;
+        left: calc(50% - 87px/2 + 13.5px);
+        top: 0px;
 
         font-family: VT323;
         font-style: normal;
@@ -57,7 +64,7 @@ const Container = styled.div`
         width: 346px;
         height: 81px;
         left: calc(50% - 346px/2 + 4px);
-        top: 188px;
+        top: 28px;
 
         font-family: Roboto;
         font-style: normal;
@@ -94,8 +101,8 @@ const Container = styled.div`
         position: absolute;
         width: 346px;
         height: 36px;
-        left: calc(50% - 346px/2 + 4px);
-        top: 275px;
+        left: calc(50% - 356px/2 + 8px);
+        top: 110px;
 
         font-family: VT323;
         font-style: normal;

@@ -8,7 +8,6 @@ const CallToAction = () => {
             <button id="resume-btn">Download Resume</button>
             <button id="github">GitHub</button>
             <button id="linkedin">LinkedIn</button>
-            <button id="twitter">Twitter</button>
         </Container>
     )
 }
@@ -20,13 +19,81 @@ const Container = styled.div`
 
     }
 
-   
-    #twitter {
+    #github {
+        position: absolute;
+        width: 428px;
+        height: 64px;
+        left: calc(50% - 430px/2 - 218px);
+        top: 600px;
 
+        background: #242526;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+        font-family: VT323;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        @media (max-width: 769px) {
+            width: 343px;
+            height: 48px;
+            left: calc(50% - 343px/2 + 0.5px);
+            top: 580px;
+        }
+
+        /* iPhone Pro Max */
+        @media (max-width: 415px) {
+            width: 182px;
+            height: 26px;
+            left: calc(50% - 182px/2 + 1px);
+            top: 320px;
+
+            font-size: 14px;
+            line-height: 14px;
+        }
+       
 
     }
 
+   
     #linkedin {
+        position: absolute;
+        width: 428px;
+        height: 64px;
+        left: calc(50% - 418px/2 + 214px);
+        top: 600px;
+
+        background: #242526;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: VT323;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        @media (max-width: 769px) {
+        width: 343px;
+        height: 48px;
+        left: calc(50% - 343px/2 + 0.5px);
+        top: 640px;   
+        }
+
+        /* iPhone Pro Max */
+        @media (max-width: 415px) {
+            width: 182px;
+            height: 24px;
+            left: calc(50% - 182px/2 + 1px);
+            top: 355px;
+            font-size: 14px;
+            line-height: 14px;
+        }
      
     }
 
@@ -116,11 +183,7 @@ const Container = styled.div`
 
     }
 
-    #github {
-        
-       
-
-    }
+    
 `;
 
 
