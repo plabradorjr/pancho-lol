@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
-import surgi_img from '../assets/surgiwiki_1.png'
+import surgi_img from '../assets/surgi1.jpg';
+import think from '../assets/thinkstonk.jpg';
+import fish from '../assets/think-fish.jpg'
+import cli from '../assets/cli.jpg'
 
 const PortfolioProjects = () => {
     return (
@@ -15,21 +18,21 @@ const PortfolioProjects = () => {
                     <button id="btn-sw">More Info</button>
                 </div>
                 <div className="apps">
-                    <img src={surgi_img} alt="surgery"></img>
+                    <img src={think} alt="surgery"></img>
                     <h2>App.Shill.lol</h2>
                     <p>Cryptocurrencies and stocks</p>
                     <p>data visualization pages</p>
                     <button id="btn-sw">More Info</button>
                 </div>
                 <div className="apps">
-                    <img src={surgi_img} alt="surgery"></img>
+                    <img src={fish} alt="surgery"></img>
                     <h2>Shill.lol</h2>
                     <p>Fully functional e-commerce</p>
                     <p>store</p>
                     <button id="btn-sw">More Info</button>
                 </div>
                 <div className="apps">
-                    <img src={surgi_img} alt="surgery"></img>
+                    <img src={cli} alt="surgery"></img>
                     <h2>Command Line Interface</h2>
                     <p>Scraper of coinmarketcap.com</p>
                     <p>for current crypto prices </p>
@@ -51,6 +54,10 @@ const Container = styled.div`
     font-family: VT323;
     font-style: normal;
     font-weight: normal;
+    
+    img {
+        border-radius: 10px;
+    }
     
     h2 {
     margin: 0px;
