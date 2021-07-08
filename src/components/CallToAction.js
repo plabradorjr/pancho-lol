@@ -5,7 +5,7 @@ const CallToAction = () => {
     return (
         <Container>
             <div id="rainbow-blur"></div>
-            <button id="resume-btn">View Resume</button>
+            <button id="resume-btn">Resume</button>
             <button id="github">GitHub</button>
             <button id="linkedin">LinkedIn</button>
         </Container>

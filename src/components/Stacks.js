@@ -12,7 +12,7 @@ const Stacks = () => {
                     <p>Figma</p>
                     <p>HTML | CSS | Javascript</p>
                     <p>Bootstrap</p>
-                    <p>Wordpres</p>
+                    <p>Wordpress</p>
                 </div>
                 <div id="backend">
                     <h2>Back-End</h2>

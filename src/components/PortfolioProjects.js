@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import surgi_img from '../assets/surgi1.jpg';
-import think from '../assets/thinkstonk.jpg';
-import fish from '../assets/think-fish.jpg'
-import cli from '../assets/cli.jpg'
+import surgi_img from '../assets/xsurgi.jpg';
+import stock from '../assets/xstocks.jpg';
+import store from '../assets/xstore.jpg'
+import cli from '../assets/xcli.jpg'
 
 const PortfolioProjects = () => {
     return (
@@ -13,19 +13,19 @@ const PortfolioProjects = () => {
                 <div className="apps">
                     <img src={surgi_img} alt="surgery"></img>
                     <h2>Surgi.Wiki</h2>
-                    <p>Content and photo management</p>
-                    <p>system for nurses</p>
+                    <p>Open-content collaborative</p>
+                    <p>database for nurses</p>
                     <button id="btn-sw">More Info</button>
                 </div>
                 <div className="apps">
-                    <img src={think} alt="surgery"></img>
+                    <img src={stock} alt="surgery"></img>
                     <h2>App.Shill.lol</h2>
                     <p>Cryptocurrencies and stocks</p>
                     <p>data visualization pages</p>
                     <button id="btn-sw">More Info</button>
                 </div>
                 <div className="apps">
-                    <img src={fish} alt="surgery"></img>
+                    <img src={store} alt="surgery"></img>
                     <h2>Shill.lol</h2>
                     <p>Fully functional e-commerce</p>
                     <p>store</p>
@@ -134,7 +134,7 @@ const Container = styled.div`
 
         font-size: 24px;
         line-height: 24px;
-        color: #FFFFFF;
+        color: #bdc3c7;
     }
 `;
 
