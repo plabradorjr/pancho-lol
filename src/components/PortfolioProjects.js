@@ -4,6 +4,7 @@ import surgi_img from '../assets/xsurgi.jpg';
 import stock from '../assets/xstocks.jpg';
 import store from '../assets/xstore.jpg'
 import cli from '../assets/xcli.jpg'
+import { Link } from 'react-router-dom';
 
 const PortfolioProjects = () => {
     return (
@@ -15,28 +16,36 @@ const PortfolioProjects = () => {
                     <h2>Surgi.Wiki</h2>
                     <p>Open-content collaborative</p>
                     <p>database for nurses</p>
+                    <Link to="/surgiwiki">
                     <button id="btn-sw">More Info</button>
+                    </Link>
                 </div>
                 <div className="apps">
                     <img src={stock} alt="surgery"></img>
                     <h2>App.Shill.lol</h2>
                     <p>Cryptocurrencies and stocks</p>
                     <p>data visualization pages</p>
+                    <Link to="/appshill">
                     <button id="btn-sw">More Info</button>
+                    </Link>
                 </div>
                 <div className="apps">
                     <img src={store} alt="surgery"></img>
                     <h2>Shill.lol</h2>
                     <p>Fully functional e-commerce</p>
                     <p>store</p>
+                    <Link to="/shill-lol">
                     <button id="btn-sw">More Info</button>
+                    </Link>
                 </div>
                 <div className="apps">
                     <img src={cli} alt="surgery"></img>
                     <h2>Command Line Interface</h2>
                     <p>Scraper of coinmarketcap.com</p>
                     <p>for current crypto prices </p>
+                    <Link to="/cli">
                     <button id="btn-sw">More Info</button>
+                    </Link>
                 </div>
             </div>
         </Container>

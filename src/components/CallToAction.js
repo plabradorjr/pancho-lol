@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import resume from '../assets/panchoLabrador_resume.pdf';
 
 const CallToAction = () => {
     return (
         <Container>
             <div id="rainbow-blur"></div>
-            <button id="resume-btn">Resume</button>
+                <a href = {resume} target="_blank"> <button id="resume-btn">Resume</button></a>
             <button id="github">GitHub</button>
             <button id="linkedin">LinkedIn</button>
         </Container>

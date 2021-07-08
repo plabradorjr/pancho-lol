@@ -3,41 +3,28 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import styled from 'styled-components';
 
-const AppShill = () => {
+const Cli = () => {
     useEffect(() => {window.scrollTo(0, 0);})
 
     return (
         <div>
             <Nav />
             <Container>
-                <h1>App.Shill.Lol</h1>
-                <button id="site">Live Website</button>
+                <h1>Command Line Interface</h1>
                 <button id="github">Github Repo</button>
             </Container>
             <Descriptions>
                 <h2>Description</h2>
-                <p>Allows data visualization of stocks and cryptocurrencies. 
-                    Users can submit comments, view trending coins, and 
-                    search all coins supported by coingecko.com. 3rd party login available via Twitter.
+                <p>This is a command line interface (CLI) that scrapes 
+                    coinmarketcap.com to show you the current top ranking 
+                    cryptocurrencies based on market capitalization.
                 </p>
                
-                <h2>Stacks</h2>
-                <p>Front-end: React, Redux, Coingecko API</p>
-                <p>Backend: Ruby on Rails</p>
-                <h2>Specs</h2>
-                <ul>
-                    <li>Include signup</li>
-                    <li>Include login</li>
-                    <li>Include logout</li>
-                    <li>5+ stateless components</li>
-                    <li>2+ container componests</li>
-                    <li>3+ routes</li>
-                    <li>Use `react-router` and proper RESTful routing</li>
-                    <li>Use Redux middleware to respond to and modify state change</li>
-                    <li>Use async actions and redux-thunk middleware to send data to and receive data from a server</li>
-                </ul>
+                <h2>Language</h2>
+                <p>Ruby</p>
+                
                 <h2>Video Walkthrough</h2>
-                <iframe width="954" height="537" src="https://www.youtube.com/embed/B1-YHROsui8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="954" height="537" src="https://www.youtube.com/embed/jGt6ev5CRK8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 
             <Footer />
 
@@ -86,7 +73,7 @@ const Container = styled.div`
         position: absolute;
         width: 163px;
         height: 64px;
-        left: calc(50% - 163px/2 + 91.5px);
+        left: calc(50% - 350px/2 + 91.5px);
         top: 179px;
 
         background: #242526;
@@ -115,11 +102,11 @@ const Container = styled.div`
 
     h1 {
         position: absolute;
-        width: 230px;
+        width: 430px;
         height: 42px;
-        left: calc(50% - 235px/2);
+        left: calc(50% - 430px/2);
         top: 99px;
     }
 `;
 
-export default AppShill
+export default Cli
